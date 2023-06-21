@@ -17,13 +17,13 @@ body {
 
 .header-logo img {
     width: 5rem;
-    height: 6rem;
-    background-color: #f0a52b;
+    height: 6rem; 
 }   
 
 .header-logo_slogan {
     margin: auto;
     color: #fff;
+    text-decoration: none;
 }
 
 .header-logo_slogan h3 {
@@ -63,9 +63,9 @@ body {
     padding: 10px 0;
 }
 
-.header-menu__item {
+/* .header-menu__item {
     
-}
+} */
 
 .header-menu__item a {
     color: #fff;
@@ -83,9 +83,9 @@ body {
     justify-content: space-between;
 }
 
-.page-content {
+/* .page-content {
    
-}
+} */
 
 .news-contents b {
     font-size: var(--tiltle-font-size);
@@ -102,7 +102,6 @@ body {
     margin-right: 20x;
     padding: 0 50px;
 }
-
 
 /* News detail */
 .detail-news {
