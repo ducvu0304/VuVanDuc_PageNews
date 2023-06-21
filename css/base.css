@@ -1,0 +1,36 @@
+:root {
+    --text-color: #fff;
+    --tiltle-font-size: 1.3rem;
+}
+
+.news-contents_title {
+
+}
+
+.page-content_block {
+    display: flex;
+}
+
+
+/* News CSS */
+.news-block {
+    display: flex;
+}
+
+.news {
+
+}
+
+.news-img {
+    width: 20rem;
+    height: 16rem;
+}
+
+.news-title {
+    font-size:  var(--tiltle-font-size) ;
+}
+
+.news-title a {
+    text-decoration: none;
+    color: black;
+}

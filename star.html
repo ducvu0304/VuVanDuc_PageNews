@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"> 
+</head>
+<body>
+    <!-- Page Header  -->
+    <header>
+        <div class="header-top">
+            <div class="header-logo">
+                <img src="data:image/png;base64,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" alt="">
+                <div class="header-logo_slogan">
+                    <h3>Kenh14.vn</h3>
+                    <p>TRANG THÔNG TIN ĐIỆN TỬ TỔNG HỢP</p>
+                </div>
+            </div>
+            <div class="header-search">
+                <input type="text" class="header-search_input">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class="header-login">
+                login
+            </div>
+        </div>
+        <nav class="header-menu">
+            <ul class="header-menu__list">
+                <li class="header-menu__item">
+                    <a href="./index.html">
+                        <i class="fa-solid fa-house"></i>
+                    </a>
+                </li>
+                <li class="header-menu__item"><a href="./star.html">Star</a></li>
+                <li class="header-menu__item"><a href="./cine.html">Cine</a></li>
+                <li class="header-menu__item"><a href="./music.html">Music</a></li>
+                <li class="header-menu__item"><a href="./beauty.html">Beauty&Fashion</a></li>
+                <li class="header-menu__item"><a href="./life.html">Đời sống</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Page Main -->
+    <main class="page-body">
+        <section class="page-content">
+            <!-- News block 1 -->
+            <div class="news-block">
+                <figure class="news">
+                    <a href="https://kenh14.vn/song-joong-ki-hack-tuoi-trong-lan-dau-lo-dien-sau-khi-len-chuc-bo-lan-at-my-nam-nct-va-got7-kem-chuc-tuoi-20230621141244662.chn">
+                        <img src="https://kenh14cdn.com/zoom/500_314/203336854389633024/2023/6/21/photo1687331498242-16873314989131676385463.jpg" alt="" class="news-img">
+                    </a>
+                    <figcaption class="news-title">
+                        <h3>
+                            <a href="https://kenh14.vn/song-joong-ki-hack-tuoi-trong-lan-dau-lo-dien-sau-khi-len-chuc-bo-lan-at-my-nam-nct-va-got7-kem-chuc-tuoi-20230621141244662.chn">
+                                Song Joong Ki "hack tuổi" trong lần đầu lộ diện sau khi lên chức bố, 
+                                lấn át mỹ nam NCT và GOT7 kém chục tuổi
+                            </a> 
+                        </h3>
+                    </figcaption>
+                </figure> 
+                
+                <figure class="news">
+                    <a href="https://kenh14.vn/minh-tinh-emma-watson-quyen-ru-voi-ao-tam-20230621081354805.chn">
+                        <img src="https://kenh14cdn.com/zoom/180_113/203336854389633024/2023/6/21/photo1687309892510-1687309892973383593984.jpg" alt="" class="news-img">
+                    </a>
+                    <figcaption class="news-title">
+                        <h3>
+                            <a href="https://kenh14.vn/minh-tinh-emma-watson-quyen-ru-voi-ao-tam-20230621081354805.chn">
+                                Minh tinh Emma Watson quyến rũ với áo tắm
+                            </a> 
+                        </h3>
+                    </figcaption>
+                </figure>
+                
+                <figure class="news">
+                    <a href="https://kenh14.vn/chu-de-nong-nhat-cbiz-nam-ca-si-thua-nhan-quan-he-voi-tre-vi-thanh-nien-xin-loi-vi-de-ro-ri-video-20230621144415391.chn">
+                        <img src="https://kenh14cdn.com/zoom/180_113/203336854389633024/2023/6/21/photo1687334246955-16873342472832105825216.jpg" alt="" class="news-img">
+                    </a>
+                    <figcaption class="news-title">
+                         <h3>
+                            <a href="https://kenh14.vn/chu-de-nong-nhat-cbiz-nam-ca-si-thua-nhan-quan-he-voi-tre-vi-thanh-nien-xin-loi-vi-de-ro-ri-video-20230621144415391.chn">
+                                Viêm Á Luân bật khóc, xông vào họp báo xin lỗi nạn nhân bị quấy rối
+                            </a>
+                         </h3>
+                    </figcaption>
+                </figure> 
+            </div>
+        </section>
+
+        <section class="page-advertisement">
+            <aside >
+                <h2>Đây là nội dung quảng cáo</h2>
+            </aside>
+        </section>
+       
+    </main>
+
+    <!-- Page Footer -->
+    <footer>
+        <div>
+            Nội dung footer
+        </div>
+    </footer>
+</body>
+</html>
